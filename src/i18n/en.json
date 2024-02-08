@@ -1,0 +1,39 @@
+{
+  "welcome": {
+    "title": "Software Developer",
+    "contact": "Contact me",
+    "downloadCV": "Download CV",
+    "introduction": "Professional experience in designing, implementing, and maintaining web solutions using mainly technologies such as **Java, React, and NodeJS**."
+  },
+  "experience": {
+    "title": "Experience",
+    "ensolvers": [
+      "Contributed to the integrations team within the company's largest project.",
+      "Developed strategic integrations with platforms such as **Shopify**, **Stripe**, and **Twitter**.",
+      "Actively participated in the interview processes to onboard new talents.",
+      "Provided initial training and ongoing support to new team members."
+    ]
+  },
+  "projects": {
+    "title": "Personal Projects",
+    "more": "See more projects in Github",
+    "queuety": {
+      "description": "Web application that enables **managing YouTube video playback** on a computer through one or multiple mobile devices, **without the need to be connected to the same Wi-Fi network**.",
+      "l1": "Light/Dark theme and dynamic configuration of font size and type.",
+      "l2": "Real-time communication via WebSockets.",
+      "l3": "Internationalization in four different languages.",
+      "l4": "Remote control of volume and fullscreen."
+    },
+    "biux": {
+      "description": "We developed this app as the final project for a UX-related course. The main focus is on **accessibility**; it was analyzed through different web validators to ensure the correct use of tags, colors, aria attributes, keyboard navigation, and screen reader usage.",
+      "l1": "Light/Dark Theme and dynamic configuration of colors, typography, and sizes.",
+      "l2": "Comprehensive management of cycling courses and routines, with particular tracking for each student.",
+      "l3": "Focus on providing a good user experience on every interface."
+    }
+  },
+  "contact": {
+    "title": "Contact me",
+    "subtitle": "You can contact me through the following channels",
+    "copied": "Copied!"
+  }
+}

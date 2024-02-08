@@ -1,0 +1,39 @@
+{
+  "welcome": {
+    "title": "Software Developer",
+    "contact": "Contáctame",
+    "downloadCV": "Descargar CV",
+    "introduction": "Cuento con experiencia profesional en diseño, implementación y mantenimiento de soluciones web utilizando principalmente tecnologías como **Java, React y NodeJS**."
+  },
+  "experience": {
+    "title": "Experiencia",
+    "ensolvers": [
+      "Formé parte del equipo de integraciones en el proyecto mas grande de la empresa.",
+      "Desarrollé integraciones estratégicas con plataformas como **Shopify**, **Stripe** y **Twitter**.",
+      "Participé activamente de los procesos de entrevista para sumar nuevos talentos.",
+      "Dí capacitacion inicial y seguimiento a los nuevos miembros del equipo."
+    ]
+  },
+  "projects": {
+    "title": "Proyectos Personales",
+    "more": "Ver mas proyectos en Github",
+    "queuety": {
+      "description": "Aplicación web que permite **gestionar la reproducción de videos de YouTube** en una computadora a través de uno o varios dispositivos móviles, **sin necesidad de estar conectados a la misma red WI-FI.**",
+      "l1": "Tema Claro/Oscuro y configuracion dinámica de tamaño y tipografía.",
+      "l2": "Comunicación en tiempo real mediante WebSockets.",
+      "l3": "Internacionalización a cuatro idiomas diferentes.",
+      "l4": "Control remoto de volumen y pantalla completa."
+    },
+    "biux": {
+      "description": "Desarrollamos esta app como trabajo final de una asignatura relacionada a UX. El foco principal esta puesto en la **accesibilidad**; se analizó a traves de diferentes validadores web para asegurar el correcto uso de etiquetas, colores, atributos aria, navegación por teclado y uso mediante screen readers.",
+      "l1": "Tema Claro/Oscuro y configuracion dinámica de colores, tipografia y tamaños.",
+      "l2": "Manejo completo de cursos y rutinas de ciclismo, con seguimiento particular a cada alumno.",
+      "l3": "Foco en brindar una buena experiencia de usuario en cada interfaz."
+    }
+  },
+  "contact": {
+    "title": "Contacto",
+    "subtitle": "Puedes contactarme por los siguientes medios",
+    "copied": "Copiado!"
+  }
+}
