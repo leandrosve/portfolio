@@ -12,7 +12,7 @@ import Footer from '../components/layout/footer';
 const font = Montserrat({ weight: ['100', '300', '400', '700'], subsets: ['latin'], preload: true });
 
 export const metadata: Metadata = {
-  title: 'LS - Portfolio',
+  title: 'Leandro Svetlich - Software Developer',
   description: 'Portfolio Showcase',
 };
 
