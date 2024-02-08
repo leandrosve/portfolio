@@ -1,4 +1,3 @@
-import Image from 'next/image';
 import { Locale, getDictionary } from '../../../../../i18n/dictionary';
 import ExternalLinkIcon from '@/app/assets/icons/external-link-icon.svg';
 import QueuetyIcon from '@/app/assets/icons/queuety-icon.svg';

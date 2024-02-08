@@ -17,6 +17,7 @@
   "projects": {
     "title": "Proyectos Personales",
     "more": "Ver mas proyectos en Github",
+    "gallery": "Ver galería",
     "queuety": {
       "description": "Aplicación web que permite **gestionar la reproducción de videos de YouTube** en una computadora a través de uno o varios dispositivos móviles, **sin necesidad de estar conectados a la misma red WI-FI.**",
       "l1": "Tema Claro/Oscuro y configuracion dinámica de tamaño y tipografía.",

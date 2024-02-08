@@ -17,6 +17,7 @@
   "projects": {
     "title": "Personal Projects",
     "more": "See more projects in Github",
+    "gallery": "Browse Gallery",
     "queuety": {
       "description": "Web application that enables **managing YouTube video playback** on a computer through one or multiple mobile devices, **without the need to be connected to the same Wi-Fi network**.",
       "l1": "Light/Dark theme and dynamic configuration of font size and type.",

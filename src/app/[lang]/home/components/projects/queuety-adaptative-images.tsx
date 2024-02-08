@@ -4,6 +4,7 @@ import Image from 'next/image';
 import { useEffect, useState } from 'react';
 import Screenshots from './screenshots';
 import { printIf } from '@/app/components/utils/ClassUtils';
+import Button from '@/app/components/common/button';
 
 const GALLERY_IMAGES = [
   'desktop-dark.png',

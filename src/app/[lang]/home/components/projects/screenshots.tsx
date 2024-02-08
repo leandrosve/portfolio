@@ -2,11 +2,15 @@
 import { useEffect, useState } from 'react';
 import GalleryIcon from '@/app/assets/icons/gallery-icon.svg';
 import Gallery from './gallery';
+import IconButton from '@/app/components/common/icon-button';
+import { useDictionary } from '@/app/context/dictionary-provider';
+import Button from '@/app/components/common/button';
 
 export default function Screenshots({ images }: { images: string[] }) {
   const [isGalleryOpen, setIsGalleryOpen] = useState(false);
 
   const [mounted, setMounted] = useState(false);
+  const dict = useDictionary();
 
   useEffect(() => {
     setMounted(true);
@@ -18,9 +22,14 @@ export default function Screenshots({ images }: { images: string[] }) {
       <div
         tabIndex={0}
         onClick={() => setIsGalleryOpen(true)}
-        className='rounded-3xl  text-content-100 opacity-0 hover:opacity-100 focus:opacity-100 absolute h-full w-full top-0 left-0 flex flex-col items-center justify-center z-2 bg-base-300/30 transition-opacity ease-in  cursor-pointer'
+        className='group  rounded-3xl  text-content-100 bg-transparent hover:bg-primary-800/20 focus:bg-white/40 absolute h-full w-full top-0 left-0 flex flex-col items-center justify-center z-2 bg-base-300/50 transition-[background] ease-in  cursor-pointer'
       >
-        <GalleryIcon className='h-8 w-8 fill-content-100 font-bold' /> Screenshots
+        <Button className='absolute bottom-4 right-4 p-3 rounded-full bg-primary-400 group-hover:bg-primary-600 z-20 pointer-events-none gap-0'>
+          <span className='overflow-hidden text-sm h-0 whitespace-nowrap max-w-0 group-hover:max-w-[200px] group-hover:h-auto transition-[max-width]'>
+            {dict.projects.gallery}
+          </span>
+          <GalleryIcon className='h-5 w-5 fill-white font-bold group-hover:ml-3' />
+        </Button>
       </div>
       <Gallery open={isGalleryOpen} onChange={(v) => setIsGalleryOpen(v)} images={images} />
     </>

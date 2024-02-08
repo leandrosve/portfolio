@@ -15,14 +15,14 @@ const Gallery = ({ images, open, onChange }: { images: string[]; open: boolean; 
   const { ref, scrollTo, onNext, onPrev, scrollSnaps, selectedIndex, prevDisabled, nextDisabled } = useGallery();
 
   return (
-    <Modal open={open} onChange={onChange}>
+    <Modal open={open} onChange={onChange} >
       <div>
         <div className={`relative flex flex-col items-center overflow-hidden ${sizes}`}>
           <div className='embla__viewport overflow-hidden h-full w-full' ref={ref}>
             <div className='embla__container  h-full w-full  flex '>
               {images.map((image, index) => (
                 <div className='relative embla__slide h-full flex-[0_0_100%] ' key={index}>
-                  <Image src={image} alt='queuety' layout='fill' objectFit='contain' className='shadow-lg rounded-sm animate-fadeIn' />
+                  <Image src={image} alt='queuety' layout='fill' objectFit='contain' className='rounded-sm animate-fadeIn' />
                   <div>
                     <Image
                       src={image}
