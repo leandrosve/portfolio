@@ -22,7 +22,7 @@ const Gallery = ({ images, open, onChange }: { images: string[]; open: boolean; 
             <div className='embla__container  h-full w-full  flex '>
               {images.map((image, index) => (
                 <div className='relative embla__slide h-full flex-[0_0_100%] ' key={index}>
-                  <Image src={image} alt='queuety' layout='fill' objectFit='contain' className='shadow-lg rounded-sm ' />
+                  <Image src={image} alt='queuety' layout='fill' objectFit='contain' className='shadow-lg rounded-sm animate-fadeIn' />
                   <div>
                     <Image
                       src={image}

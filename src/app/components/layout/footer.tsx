@@ -11,7 +11,7 @@ const Footer = () => {
   return (
     <footer className='text-content-300 flex justify-between  min-h-80 mt-20 p-4 text-xl items-center xl:px-80 px-10 z-10 border-t border-content-300/20 gap-y-10'>
       <div className='flex justify-between w-full flex-wrap max-md:flex-col justify-center items-center  gap-y-5'>
-        <div className='flex flex-col gap-5 justify-start gap-y-5'>
+        <div className='flex flex-col gap-5 justify-start gap-y-5 max-sm:items-center'>
           <div className=' text-sm flex gap-1 items-center flex-wrap justify-center'>
             <span className='flex gap-1 items-center'>
               <LocationIcon className='h-7 w-7 -ml-1' /> La Plata
@@ -23,9 +23,9 @@ const Footer = () => {
             <CopyrightIcon className='h-4 w-4 stroke-content-300' /> Leandro Svetlich - 2024
           </div>
         </div>
-        <div className='flex flex-col gap-5 justify-start gap-y-5'>
+        <div className='flex flex-col gap-5 justify-start gap-y-5  max-sm:items-center'>
           <div className='flex gap-2 items-center'>
-            <a  href='https://github.com/leandrosve' target='_blank' aria-label='github profile'>
+            <a href='https://github.com/leandrosve' target='_blank' aria-label='github profile'>
               <IconButton asSpan variant='ghost' size='sm'>
                 <GithubIcon className='w-5 h-5 fill-content-300' />
               </IconButton>

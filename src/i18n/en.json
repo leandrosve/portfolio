@@ -25,7 +25,7 @@
       "l4": "Remote control of volume and fullscreen."
     },
     "biux": {
-      "description": "We developed this app as the final project for a UX-related course. The main focus is on **accessibility**; it was analyzed through different web validators to ensure the correct use of tags, colors, aria attributes, keyboard navigation, and screen reader usage.",
+      "description": "My partner and I developed this app as the final project for a UX-related course. The main focus is on **accessibility**; it was analyzed through different web validators to ensure the correct use of tags, colors, aria attributes, keyboard navigation, and screen reader usage.",
       "l1": "Light/Dark Theme and dynamic configuration of colors, typography, and sizes.",
       "l2": "Comprehensive management of cycling courses and routines, with particular tracking for each student.",
       "l3": "Focus on providing a good user experience on every interface."
