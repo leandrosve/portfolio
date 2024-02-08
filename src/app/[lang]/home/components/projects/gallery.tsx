@@ -69,7 +69,7 @@ const Gallery = ({ images, open, onChange }: { images: string[]; open: boolean; 
         </div>
         <IconButton
           variant='ghost'
-          className='hover:bg-transparent dark:hover:bg-transparent absolute -left-10 top-[50%] max-md:left-2 max-md:right-2 -translate-y-1/2 text-white drop-shadow-[0_0_4px_black]'
+          className='hover:bg-transparent dark:hover:bg-transparent absolute -left-10 top-[50%] max-md:left-2  -translate-y-1/2 text-white drop-shadow-[0_0_4px_black]'
           size='sm'
           onClick={onPrev}
           isDisabled={prevDisabled}
