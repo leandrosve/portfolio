@@ -19,7 +19,7 @@ export default async function Queuety({ lang = 'en' }: { lang: Locale }) {
           <QueuetyIcon className='h-24 w-24' />
           <div className=' flex flex-col items-start p-4'>
             <h2 className='text-5xl font-bold mb-0'>Queuety</h2>
-            <a className='text-xl font-light mb-0 text-content-300 flex items-center gap-2' href='https://queuety.vercel.app' target='_blank'>
+            <a className='text-xl font-light mb-0 text-content-300 flex items-center gap-2 underline' href='https://queuety.vercel.app' target='_blank'>
               <ExternalLinkIcon className='h-4 w-4' />
               queuety.vercel.app
             </a>
@@ -46,7 +46,7 @@ export default async function Queuety({ lang = 'en' }: { lang: Locale }) {
             {dict.projects.queuety.l4}
           </li>
         </ul>
-        <Skills skillList={['react', 'node', 'nestjs', 'socket', 'chakra', 'youtube']} />
+        <Skills skillList={['react', 'typescript', 'node', 'nestjs', 'socket', 'chakra', 'youtube']} />
       </div>
       <QueuetyDesktopImage />
       <a href='https://github.com/leandrosve/queuety' target='_blank' className='absolute bottom-2 right-2' aria-label='github repository'>

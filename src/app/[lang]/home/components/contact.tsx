@@ -34,7 +34,7 @@ const Contact = () => {
       </Button>
       <Modal open={isOpen} onChange={(v) => setIsOpen(v)}>
         <CloseButton asChild>
-          <IconButton variant='ghost' className='absolute top-1 right-1'>
+          <IconButton variant='ghost' className='absolute top-1 right-1' aria-label='close'>
             <CloseIcon className='h-7 w-7' />
           </IconButton>
         </CloseButton>

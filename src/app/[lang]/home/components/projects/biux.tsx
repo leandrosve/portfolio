@@ -26,7 +26,7 @@ export default async function Biux({ lang = 'en' }: { lang: Locale }) {
           <BiuxIcon className='h-24 w-24' />
           <div className=' flex flex-col items-start p-4'>
             <h2 className='text-5xl font-light mb-0 tracking-widest'>BIUX</h2>
-            <a className='text-xl font-light mb-0 text-content-300 flex items-center gap-2' href='https://biux.vercel.app/' target='_blank'>
+            <a className='text-xl font-light mb-0 text-content-300 flex items-center underline gap-2' href='https://biux.vercel.app/' target='_blank'>
               <ExternalLinkIcon className='h-4 w-4' />
               biux.vercel.app
             </a>
@@ -49,7 +49,7 @@ export default async function Biux({ lang = 'en' }: { lang: Locale }) {
             {dict.projects.biux.l3}
           </li>
         </ul>
-        <Skills skillList={['react', 'node', 'nestjs', 'chakra']} />
+        <Skills skillList={['react', 'typescript', 'node', 'nestjs', 'chakra']} />
       </div>
       <div className='relative shrink-0'>
         <div className={`rounded-3xl  max-w-[600px] max-w[400px] overflow-hidden bg-base-300/20 shadow-xl`}>
