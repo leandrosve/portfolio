@@ -6,7 +6,7 @@ import BoldTextParser from '@/app/components/common/bold-text-parser';
 export default async function Experience({ lang = 'en' }: { lang: Locale }) {
   const dict = await getDictionary(lang);
   return (
-    <section  id='experience' className='h-full text-center flex flex-col items-center justify-center '>
+    <section id='experience' className='h-full text-center flex flex-col items-center justify-center '>
       <h1 className='text-6xl text-content-300 font-light tracking-widest'>{dict.experience.title}</h1>
       <div className='mt-16 flex flex-col items-center p-4'>
         <div className='flex items-end justify-between w-full flex-wrap max-sm:justify-center max-sm:gap-5 gap-y-2'>
@@ -27,7 +27,7 @@ export default async function Experience({ lang = 'en' }: { lang: Locale }) {
             </li>
           ))}
         </ul>
-        <Skills skillList={['spring', 'react', 'kafka', 'redis', 'sql', 'elastic']} />
+        <Skills skillList={['react', 'typescript', 'spring', 'java', 'kafka', 'redis', 'sql', 'elastic']} />
       </div>
     </section>
   );
