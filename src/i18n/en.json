@@ -32,11 +32,11 @@
       "l3": "Focus on providing a good user experience on every interface."
     },
     "screenOps": {
-      "description": "Aplicación para la gestión integral de operaciones en cines. Permite a los administradores manejar cines, salas, películas, usuarios, funciones, crear layouts de butacas para las salas, y venta de tickets.",
-      "l1": "Implementada con arquitectura basada en microservicios,",
-      "l2": "Con enfoque en escalabilidad y separación de responsabilidades",
-      "l3": "Manejo de eventos asincrónicos con RabbitMQ.",
-      "l4": "Comunicación entre microservicios con gRPC."
+      "description": "Application for comprehensive management of cinema operations. Allows administrators to manage cinemas, rooms, movies, users, showtimes, create seat layouts for rooms, and handle ticket sales.",
+      "l1": "Implemented with a microservices-based architecture,",
+      "l2": "Focused on scalability and separation of concerns,",
+      "l3": "Asynchronous event handling with RabbitMQ.",
+      "l4": "Inter-service communication using gRPC."
     }
   },
   "contact": {
