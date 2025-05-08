@@ -28,7 +28,7 @@ const Gallery = ({ images, open, onChange }: { images: string[]; open: boolean; 
                       src={image}
                       width={10}
                       height={10}
-                      alt='queuety'
+                      alt=''
                       className={`box-shadow-[0_0_4px_black] -z-20 absolute max-sm:rotate-90 blur-xl rounded-md h-full w-full left-0 top-0 opacity-0 ${printIf(
                         'gallery-image-fade-in',
                         images[selectedIndex] == image

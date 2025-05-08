@@ -16,10 +16,12 @@ const SKILL_MAP: Record<Skill, { name: string; logo: string }> = {
   youtube: { name: 'Youtube Iframe and Data API', logo: 'youtube.png' },
   typescript: { name: 'Typescript', logo: 'typescript.png' },
   java: { name: 'Java', logo: 'java.png' },
+  dotnet: { name: '.NET', logo: 'dotnet.png' },
+  rabbitmq: { name: 'RabbitMQ', logo: 'rabbitmq.png' },
 
 };
 
-type Skill = 'spring' | 'java' | 'typescript' | 'react' | 'kafka' | 'redis' | 'sql' | 'elastic' | 'chakra' | 'nestjs' | 'node' | 'socket' | 'youtube';
+type Skill = 'spring' | 'java' | 'typescript' | 'react' | 'kafka' | 'redis' | 'sql' | 'elastic' | 'chakra' | 'nestjs' | 'node' | 'socket' | 'youtube' | 'dotnet' | 'rabbitmq';
 
 export default function Skills({ skillList }: { skillList: Skill[] }) {
   return (

@@ -30,6 +30,13 @@
       "l1": "Tema Claro/Oscuro y configuracion dinámica de colores, tipografia y tamaños.",
       "l2": "Manejo completo de cursos y rutinas de ciclismo, con seguimiento particular a cada alumno.",
       "l3": "Foco en brindar una buena experiencia de usuario en cada interfaz."
+    },
+    "screenOps": {
+      "description": "Aplicación para la gestión integral de operaciones en cines. Permite a los administradores manejar cines, salas, películas, usuarios, funciones, crear layouts de butacas para las salas, y venta de tickets.",
+      "l1": "Implementada con arquitectura basada en microservicios,",
+      "l2": "Con enfoque en escalabilidad y separación de responsabilidades",
+      "l3": "Manejo de eventos asincrónicos con RabbitMQ.",
+      "l4": "Comunicación entre microservicios con gRPC."
     }
   },
   "contact": {

@@ -12,7 +12,7 @@ export default async function Queuety({ lang = 'en' }: { lang: Locale }) {
   return (
     <div
       style={{ maxWidth: 1200 }}
-      className='relative flex gap-10 items-center  mt-16 max-lg:flex-col flex-row-reverse  bg-white dark:bg-transparent shadow dark:bg-gradient-to-tr from-base-200 to-base-100 p-10 border border-content-300/20 '
+      className='relative flex gap-10 items-center  mt-16 max-lg:flex-col flex-row-reverse  bg-white dark:bg-transparent shadow-lg dark:bg-gradient-to-tr from-base-200 to-base-100 p-10 border border-content-300/20 '
     >
       <div className='flex flex-col items-start'>
         <div className='flex items-center'>
