@@ -69,8 +69,8 @@ export default async function ProjectCard({
             />
           </p>
           <ul className="text-sm flex flex-col text-start mt-4">
-            {project.dictKeys.items.map((i) => (
-              <li>
+            {project.dictKeys.items.map((i, index) => (
+              <li key={index}>
                 <div
                   className={`h-1 w-1 mb-1 inline-block rounded-full mr-2 shadow-[0_0_5px_#d2a5f3] ${project.dotBgColor}`}
                 />
