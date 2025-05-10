@@ -81,7 +81,7 @@ export default async function ProjectCard({
         </div>
         <div className="relative shrink-0">
           <div
-            className={`rounded-3xl  w-[600px] w[400px] max-w-[90vw] overflow-hidden bg-base-300/20`}
+            className={`rounded-3xl  w-[600px] w[400px] max-w-[90vw] overflow-hidden relative`}
           >
             <Image
               src={project.image}

@@ -16,7 +16,7 @@ const Gallery = ({ images, open, onChange }: { images: string[]; open: boolean; 
 
   return (
     <Modal open={open} onChange={onChange} >
-      <div>
+      <div >
         <div className={`relative flex flex-col items-center overflow-hidden ${sizes}`}>
           <div className='embla__viewport overflow-hidden h-full w-full' ref={ref}>
             <div className='embla__container  h-full w-full  flex '>
@@ -60,7 +60,7 @@ const Gallery = ({ images, open, onChange }: { images: string[]; open: boolean; 
             </div>
           </div>
         </div>
-        <div className='absolute md:-left-10 top-3  max-sm:right-2 max-md:top-0'>
+        <div className='fixed right-5 top-5 max-sm:right-2 max-md:top-0 '>
           <Dialog.Close asChild>
             <IconButton variant='ghost' className='hover:bg-transparent dark:hover:bg-transparent text-white' size='xl'>
               <CloseIcon className='h-7 w-7 drop-shadow-[0_0_4px_black]' />
