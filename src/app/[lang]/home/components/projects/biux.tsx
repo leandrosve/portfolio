@@ -3,7 +3,6 @@ import { Locale, getDictionary } from '../../../../../i18n/dictionary';
 import ExternalLinkIcon from '@/app/assets/icons/external-link-icon.svg';
 import BiuxIcon from '@/app/assets/icons/biux-icon.svg';
 import Skills from '../skills';
-import QueuetyDesktopImage from './queuety-adaptative-images';
 import BoldTextParser from '@/app/components/common/bold-text-parser';
 import Screenshots from './screenshots';
 import IconButton from '@/app/components/common/icon-button';

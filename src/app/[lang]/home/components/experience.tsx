@@ -2,6 +2,7 @@ import Image from 'next/image';
 import { Locale, getDictionary } from '../../../../i18n/dictionary';
 import Skills from './skills';
 import BoldTextParser from '@/app/components/common/bold-text-parser';
+import SkillsV2 from './skills-v2';
 
 export default async function Experience({ lang = 'en' }: { lang: Locale }) {
   const dict = await getDictionary(lang);
@@ -27,7 +28,10 @@ export default async function Experience({ lang = 'en' }: { lang: Locale }) {
             </li>
           ))}
         </ul>
-        <Skills skillList={['react', 'typescript', 'spring', 'java', 'kafka', 'redis', 'sql', 'elastic']} />
+        <div className='max-w-[600px] flex flex-col items-center mt-5'>
+          <span className='text-lg text font-bold text-content-300 mb-5'>STACK</span>
+        <SkillsV2 skillList={['react', 'typescript', 'spring', 'java', 'kafka', 'redis', 'sql', 'elastic']} className='justify-center'/>
+        </div>
       </div>
     </section>
   );
