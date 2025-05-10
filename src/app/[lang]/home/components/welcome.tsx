@@ -1,6 +1,5 @@
 import Image from 'next/image';
 import Button from '../../../components/common/button';
-import ContactIcon from '../../../assets/icons/contact-icon.svg';
 import DownloadFileIcon from '../../../assets/icons/download-file-icon.svg';
 import LocationIcon from '../../../assets/icons/location-icon.svg';
 import { Locale, getDictionary } from '@/i18n/dictionary';
@@ -11,7 +10,7 @@ import Contact from './contact';
 export default async function Welcome({ lang = 'en' }: { lang: Locale }) {
   const dict = await getDictionary(lang);
   return (
-    <div className='flex flex-col items-center justify-center self-center animate-fadeIn relative relative overflow-x-hidden py-20 max-md:py-1 lg:py-24  text-white'>
+    <div className='flex flex-col items-center justify-center self-center animate-fadeIn relative overflow-x-hidden py-20 max-md:py-1 lg:py-24  text-white'>
       <div className='smooth-gradient'></div>
       <div className='flex items-center gap-10 relative pt-14 px-2 0 max-md:flex-col'>
         <div className='h-72 w-72 max-md:h-52 max-md:w-52 rounded-full shadow-lg overflow-hidden flex items-center justify-center relative z-1'>

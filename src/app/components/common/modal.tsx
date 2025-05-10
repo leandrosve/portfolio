@@ -1,7 +1,6 @@
 'use client';
 import React, { ReactNode, useEffect } from 'react';
 import * as Dialog from '@radix-ui/react-dialog';
-import { twMerge } from 'tailwind-merge';
 import { joinClasses } from '../utils/ClassUtils';
 
 interface ModalOptions {
@@ -37,7 +36,7 @@ const Modal = ({
         <Dialog.Overlay className='z-50 backdrop-blur-sm bg-black/50 fixed inset-0 bottom-0 left-0 w-screen h-screen animate-fadeInFast overflow-y-auto grid place-items-center'>
           <Dialog.Content
             className={joinClasses(
-              'bg-base-100 border flex flex-col border-content-300/10 relative m-4 max-sm:m-0  max-sm:p-0 p-10  p-2 rounded-lg items-center ',
+              'bg-base-100 border flex flex-col border-content-300/10 relative m-4 max-sm:m-0  max-sm:p-0  p-2 rounded-lg items-center ',
               options?.contentClassName
             )}
           >

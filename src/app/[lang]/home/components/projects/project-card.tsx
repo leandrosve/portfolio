@@ -1,6 +1,5 @@
 import { Locale, getDictionary } from "../../../../../i18n/dictionary";
 import ExternalLinkIcon from "@/app/assets/icons/external-link-icon.svg";
-import Skills from "../skills";
 import Image from "next/image";
 import BoldTextParser from "@/app/components/common/bold-text-parser";
 import IconButton from "@/app/components/common/icon-button";

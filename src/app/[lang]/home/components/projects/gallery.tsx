@@ -60,7 +60,7 @@ const Gallery = ({ images, open, onChange }: { images: string[]; open: boolean; 
             </div>
           </div>
         </div>
-        <div className='absolute md:-left-10 top-3  max-sm:right-5 max-md:top-0'>
+        <div className='absolute md:-left-10 top-3  max-sm:right-2 max-md:top-0'>
           <Dialog.Close asChild>
             <IconButton variant='ghost' className='hover:bg-transparent dark:hover:bg-transparent text-white' size='xl'>
               <CloseIcon className='h-7 w-7 drop-shadow-[0_0_4px_black]' />

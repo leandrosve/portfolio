@@ -1,6 +1,5 @@
 import Image from 'next/image';
 import { Locale, getDictionary } from '../../../../i18n/dictionary';
-import Skills from './skills';
 import BoldTextParser from '@/app/components/common/bold-text-parser';
 import SkillsV2 from './skills-v2';
 
